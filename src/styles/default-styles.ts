@@ -1,4 +1,4 @@
-export const colors= {
+export const colors = {
   Transparence: 'rgba(0,0,0,0)',
   body: '#000',
   primary: '#0373F1',
@@ -10,10 +10,10 @@ export const colors= {
   light: '#F2EEF4',
   dark: '#3C3D48',
   gray: '#444',
-  white: '#FFFF',
+  white: '#FFFF'
 }
 
-export const sizes= {
+export const sizes = {
   fontSize: '13px',
   headerSmall: '70px',
   headerLarge: '100px',

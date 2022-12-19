@@ -1,24 +1,26 @@
-
+import { ReactElement } from 'react'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
-import GlobalStyles from '@styles/global-style'
-import 'normalize.css'
+import { ToastContainer } from 'react-toastify'
+import { GlobalStyle } from '@G.styles/global-style'
+import 'react-toastify/dist/ReactToastify.css'
 
-function App({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps): ReactElement {
   return (
     <>
       <Head>
-        <title>React Avançado - Boilerplate</title>
-        <link rel="shortcut icon" href="../../public/favicon.ico" />
-        <meta
-          name="description"
-          content="A simple project starter to word with Typescript, React, NextJS and Styled Components"
+        <link
+          key="favicon"
+          rel="icon"
+          type="image/x-icon"
+          href="/assets/favicon.ico"
         />
       </Head>
-      <GlobalStyles />
+      <ToastContainer />
+      <GlobalStyle />
       <Component {...pageProps} />
     </>
   )
 }
 
-export default App
+export default MyApp

@@ -28,5 +28,17 @@
     "react/display-name": "off",
     "no-unused-vars": "warn",
     "no-unreachable": "warn"
-  }
+  },
+  "globals": {
+    "React": true,
+    "google": true,
+    "mount": true,
+    "mountWithRouter": true,
+    "shallow": true,
+    "shallowWithRouter": true,
+    "context": true,
+    "expect": true,
+    "jsdom": true,
+    "JSX": true
+}
 }
