@@ -49,6 +49,7 @@ export const BoxPai = styled.div`
 const Aula_2 = () => {
   return (
     <BoxPai>
+      <h2>2 • flex-direction</h2>
       <p>
         Define a direção dos flex itens. Por padrão ele é row (linha), por isso
         quando o display: flex; é adicionado, os elementos ficam em linha, um do

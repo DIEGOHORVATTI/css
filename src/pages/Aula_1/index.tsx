@@ -46,6 +46,7 @@ export const BoxPai = styled.div`
 const Aula_1 = () => {
   return (
     <BoxPai>
+      <h2>1 • display</h2>
       <p>
         display: flex; Torna o elemento um flex container automaticamente
         transformando todos os seus filhos diretos em flex itens.{' '}

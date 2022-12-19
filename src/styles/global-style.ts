@@ -4,7 +4,8 @@ import { colors } from '@G.styles/default-styles'
 export const GlobalStyle = createGlobalStyle`
 
   * {
-    font-family: Arial;
+    /* font-family: Arial; */
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 800;
     font-style: normal;
   }
@@ -12,8 +13,13 @@ export const GlobalStyle = createGlobalStyle`
   html, body{
     color: ${colors.white};
     background: ${colors.dark};
-    height: 100%;
+    height: 100vh;
     width: 100vw;
+    margin: 1px;
+    padding: 1px;
+    -webkit-box-shadow: inset 0 0 100vw rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0 0 100vw rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
   }
 
   a {

@@ -5,8 +5,10 @@
 // prettier-ignore
 declare module "nextjs-routes" {
   export type Route =
+    | StaticRoute<"/404">
     | StaticRoute<"/Aula_1">
     | StaticRoute<"/Aula_2">
+    | StaticRoute<"/Aula_3">
     | StaticRoute<"/Routes">
     | StaticRoute<"/api/hello">
     | StaticRoute<"/">;
